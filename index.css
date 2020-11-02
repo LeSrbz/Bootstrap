@@ -1,0 +1,55 @@
+*{margin: 0px; padding: 0px;}
+body{
+    background-image: url(images/Login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-form{
+    width: 450px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 123px auto;
+    border-radius: 50px;
+    padding: 30px 50px;
+}
+.login-form>h1{
+    color: white;
+    text-align: center;
+    margin: 50px auto;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.col input{
+    margin: 10px auto;
+    border-radius: 15px !important;
+}
+p a{
+    color: rgb(60, 191, 118);
+    margin-left: 5px;
+}
+p:hover a{
+    color: rgb(12, 145, 73);
+    text-decoration: underline;
+}
+button{
+    width: 40%;
+    background-color: rgb(60, 191, 118) !important;
+    border: none !important;
+    border-radius: 15px !important;
+}
+button:hover{
+    background-color: rgb(12, 145, 73) !important;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+button:focus{
+    background-color: rgb(12, 145, 73) !important;
+    border-color: rgb(12, 145, 73);
+    box-shadow: 0px 0px 0.5px 3px rgba(22, 209, 109, 0.699)!important;
+}
+input:focus{
+    border-color: rgb(12, 145, 73);
+    box-shadow: 0px 0px 0.5px 3px rgba(22, 209, 109, 0.699)!important; 
+}
